@@ -1,0 +1,307 @@
+EESchema Schematic File Version 4
+LIBS:Custom Arduino v2-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Crystal Y1
+U 1 1 5D7B009A
+P 6000 3050
+F 0 "Y1" V 5954 3181 50  0000 L CNN
+F 1 "16Mhz" V 6045 3181 50  0000 L CNN
+F 2 "" H 6000 3050 50  0001 C CNN
+F 3 "~" H 6000 3050 50  0001 C CNN
+	1    6000 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5D7B0DB5
+P 6550 4300
+F 0 "R1" H 6620 4346 50  0000 L CNN
+F 1 "10k" H 6620 4255 50  0000 L CNN
+F 2 "" V 6480 4300 50  0001 C CNN
+F 3 "~" H 6550 4300 50  0001 C CNN
+	1    6550 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C1
+U 1 1 5D7B1B98
+P 6650 2600
+F 0 "C1" H 6765 2646 50  0000 L CNN
+F 1 "22pF" H 6765 2555 50  0000 L CNN
+F 2 "" H 6688 2450 50  0001 C CNN
+F 3 "~" H 6650 2600 50  0001 C CNN
+	1    6650 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C2
+U 1 1 5D7B2240
+P 6650 3250
+F 0 "C2" H 6765 3296 50  0000 L CNN
+F 1 "22pF" H 6765 3205 50  0000 L CNN
+F 2 "" H 6688 3100 50  0001 C CNN
+F 3 "~" H 6650 3250 50  0001 C CNN
+	1    6650 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D7B2594
+P 4000 2400
+F 0 "C3" H 4115 2446 50  0000 L CNN
+F 1 "100nF" H 4115 2355 50  0000 L CNN
+F 2 "" H 4038 2250 50  0001 C CNN
+F 3 "~" H 4000 2400 50  0001 C CNN
+	1    4000 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L Switch:SW_DIP_x01 SW1
+U 1 1 5D7B4D4D
+P 6650 4000
+F 0 "SW1" H 6650 4267 50  0000 C CNN
+F 1 "SW_DIP_x01" H 6650 4176 50  0000 C CNN
+F 2 "" H 6650 4000 50  0001 C CNN
+F 3 "~" H 6650 4000 50  0001 C CNN
+	1    6650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7BC3AF
+P 4900 1500
+F 0 "#PWR?" H 4900 1350 50  0001 C CNN
+F 1 "+5V" H 4915 1673 50  0000 C CNN
+F 2 "" H 4900 1500 50  0001 C CNN
+F 3 "" H 4900 1500 50  0001 C CNN
+	1    4900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D7BCD6F
+P 3600 2400
+F 0 "#PWR?" H 3600 2150 50  0001 C CNN
+F 1 "GND" V 3605 2272 50  0000 R CNN
+F 2 "" H 3600 2400 50  0001 C CNN
+F 3 "" H 3600 2400 50  0001 C CNN
+	1    3600 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D7BD6BE
+P 7200 3050
+F 0 "#PWR?" H 7200 2800 50  0001 C CNN
+F 1 "GND" V 7205 2922 50  0000 R CNN
+F 2 "" H 7200 3050 50  0001 C CNN
+F 3 "" H 7200 3050 50  0001 C CNN
+	1    7200 3050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3000 5800 2900
+Wire Wire Line
+	5800 2900 6000 2900
+Wire Wire Line
+	6000 3200 5800 3200
+Wire Wire Line
+	5800 3200 5800 3100
+Wire Wire Line
+	5800 3100 5600 3100
+Wire Wire Line
+	4850 2100 4850 1700
+Wire Wire Line
+	4850 1700 4900 1700
+Connection ~ 4900 1700
+Wire Wire Line
+	4150 2400 4400 2400
+Wire Wire Line
+	3850 2400 3600 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5D7C73BA
+P 5000 5450
+F 0 "#PWR?" H 5000 5200 50  0001 C CNN
+F 1 "GND" H 5005 5277 50  0000 C CNN
+F 2 "" H 5000 5450 50  0001 C CNN
+F 3 "" H 5000 5450 50  0001 C CNN
+	1    5000 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3000 5800 3000
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-AU U?
+U 1 1 5D7AE7CC
+P 5000 3600
+F 0 "U?" H 5000 3600 50  0000 C CNN
+F 1 "ATmega328P-AU" V 4750 3600 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 5000 3600 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 5000 3600 50  0001 C CNN
+	1    5000 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 5100 5000 5450
+Wire Wire Line
+	5600 3900 6050 3900
+Wire Wire Line
+	6050 3900 6050 4000
+Wire Wire Line
+	6050 4000 6350 4000
+$Comp
+L power:GND #PWR?
+U 1 1 5D7CBAD8
+P 7300 4000
+F 0 "#PWR?" H 7300 3750 50  0001 C CNN
+F 1 "GND" V 7305 3872 50  0000 R CNN
+F 2 "" H 7300 4000 50  0001 C CNN
+F 3 "" H 7300 4000 50  0001 C CNN
+	1    7300 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 4000 6050 4300
+Wire Wire Line
+	6050 4300 6400 4300
+Connection ~ 6050 4000
+Wire Wire Line
+	6950 4000 7300 4000
+$Comp
+L power:+5V #PWR?
+U 1 1 5D7CDC22
+P 7300 4300
+F 0 "#PWR?" H 7300 4150 50  0001 C CNN
+F 1 "+5V" V 7315 4428 50  0000 L CNN
+F 2 "" H 7300 4300 50  0001 C CNN
+F 3 "" H 7300 4300 50  0001 C CNN
+	1    7300 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6700 4300 7300 4300
+Wire Wire Line
+	6000 2900 6400 2900
+Wire Wire Line
+	6400 2900 6400 2600
+Wire Wire Line
+	6400 2600 6500 2600
+Connection ~ 6000 2900
+Wire Wire Line
+	6800 2600 7050 2600
+Wire Wire Line
+	7050 2600 7050 3050
+Wire Wire Line
+	7050 3050 7200 3050
+Wire Wire Line
+	6800 3250 7050 3250
+Wire Wire Line
+	7050 3250 7050 3050
+Connection ~ 7050 3050
+Wire Wire Line
+	6500 3250 6150 3250
+Wire Wire Line
+	6150 3250 6150 3200
+Wire Wire Line
+	6150 3200 6000 3200
+Connection ~ 6000 3200
+Wire Wire Line
+	4100 1600 4100 1450
+Wire Wire Line
+	4350 1600 4100 1600
+$Comp
+L power:GND #PWR?
+U 1 1 5D7BDBC2
+P 4100 1450
+F 0 "#PWR?" H 4100 1200 50  0001 C CNN
+F 1 "GND" H 4105 1277 50  0000 C CNN
+F 2 "" H 4100 1450 50  0001 C CNN
+F 3 "" H 4100 1450 50  0001 C CNN
+	1    4100 1450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D7B23E1
+P 4500 1600
+F 0 "C4" H 4615 1646 50  0000 L CNN
+F 1 "100nF" H 4615 1555 50  0000 L CNN
+F 2 "" H 4538 1450 50  0001 C CNN
+F 3 "~" H 4500 1600 50  0001 C CNN
+	1    4500 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4900 1600 4900 1500
+Wire Wire Line
+	4900 1700 4900 1600
+Connection ~ 4900 1600
+Wire Wire Line
+	4650 1600 4900 1600
+Wire Wire Line
+	5000 1700 5000 2100
+Wire Wire Line
+	4900 1700 5000 1700
+$Comp
+L Connector:Conn_01x06_Female J1
+U 1 1 5D7F93E2
+P 6100 1450
+F 0 "J1" V 6038 1062 50  0000 R CNN
+F 1 "Conn_01x06_Female" V 5947 1062 50  0000 R CNN
+F 2 "" H 6100 1450 50  0001 C CNN
+F 3 "~" H 6100 1450 50  0001 C CNN
+	1    6100 1450
+	0    -1   -1   0   
+$EndComp
+Text Label 5900 1650 3    50   ~ 0
+MOSI
+Text Label 6000 1650 3    50   ~ 0
+RESET
+Text Label 6100 1650 3    50   ~ 0
+SCK
+Text Label 6200 1650 3    50   ~ 0
+MISO
+Text Label 6300 1650 3    50   ~ 0
+5V
+Text Label 6400 1650 3    50   ~ 0
+GND
+Text GLabel 6300 2100 3    50   Input ~ 0
+VCC
+Text GLabel 6400 2100 3    50   Input ~ 0
+GND
+Text GLabel 6000 2100 3    50   Input ~ 0
+RESET
+Text GLabel 6200 2100 3    50   Input ~ 0
+MISO
+Text GLabel 6100 2100 3    50   Input ~ 0
+SCK
+Text GLabel 5900 2100 3    50   Input ~ 0
+MOSI
+Wire Wire Line
+	6400 1650 6400 2100
+Wire Wire Line
+	6300 2100 6300 1650
+Wire Wire Line
+	6200 2100 6200 1650
+Wire Wire Line
+	6100 2100 6100 1650
+Wire Wire Line
+	6000 2100 6000 1650
+Wire Wire Line
+	5900 2100 5900 1650
+$EndSCHEMATC

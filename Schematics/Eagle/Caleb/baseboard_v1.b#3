@@ -1,0 +1,2106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
+<layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
+<layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+<wire x1="0" y1="0" x2="0" y2="266.7" width="0.1524" layer="20"/>
+<wire x1="0" y1="266.7" x2="266.7" y2="266.7" width="0.1524" layer="20"/>
+<wire x1="266.7" y1="266.7" x2="266.7" y2="0" width="0.1524" layer="20"/>
+<wire x1="266.7" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
+</plain>
+<libraries>
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="1X03" urn="urn:adsk.eagle:footprint:37678/1" library_version="1">
+<description>&lt;h3&gt;Plated Through Hole - 3 Pin&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:3&lt;/li&gt;
+&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;CONN_03&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.2032" layer="21"/>
+<wire x1="-0.635" y1="1.27" x2="-1.27" y2="0.635" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="-0.635" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.2032" layer="21"/>
+<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.2032" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
+<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<text x="-1.27" y="1.397" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-2.032" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="1X03" urn="urn:adsk.eagle:package:38063/1" type="box" library_version="1">
+<description>Plated Through Hole - 3 Pin
+Specifications:
+Pin count:3
+Pin pitch:0.1"
+
+Example device(s):
+CONN_03
+</description>
+<packageinstances>
+<packageinstance name="1X03"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="wirepad" urn="urn:adsk.eagle:library:412">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="2,15/1,0" urn="urn:adsk.eagle:footprint:30813/1" library_version="2">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="1.143" y1="-1.143" x2="1.143" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-1.143" x2="0.635" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="0.635" x2="1.143" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="1.143" x2="0.635" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="1.143" x2="-1.143" y2="1.143" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="1.143" x2="-1.143" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-0.635" x2="-1.143" y2="-1.143" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-1.143" x2="-0.635" y2="-1.143" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.016" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="2.159" shape="octagon"/>
+<text x="-1.143" y="1.397" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="1" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="2,15/1,0" urn="urn:adsk.eagle:package:30831/1" type="box" library_version="2">
+<description>THROUGH-HOLE PAD</description>
+<packageinstances>
+<packageinstance name="2,15/1,0"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="50"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="25mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="2"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="|"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="-"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="23.9014" y="242.824" smashed="yes" rot="R270">
+<attribute name="NAME" x="25.2984" y="244.094" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="21.8694" y="244.094" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+</element>
+<element name="PAD1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="29.3878" y="242.5446" smashed="yes">
+<attribute name="NAME" x="30.3784" y="244.1448" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="POPULARITY" value="11" x="29.3878" y="242.5446" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="29.3878" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="PAD2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="32.2072" y="242.5446" smashed="yes">
+<attribute name="NAME" x="32.9184" y="244.4242" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="POPULARITY" value="11" x="32.2072" y="242.5446" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="32.2072" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="PAD3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="29.3878" y="239.7252" smashed="yes">
+<attribute name="NAME" x="29.0322" y="237.1852" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="POPULARITY" value="11" x="29.3878" y="239.7252" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="29.3878" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="PAD4" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="32.2072" y="239.7252" smashed="yes">
+<attribute name="NAME" x="31.0642" y="241.1222" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="32.2072" y="239.7252" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="32.2072" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="GND" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="26.6446" y="245.2624" smashed="yes">
+<attribute name="NAME" x="27.6606" y="247.7516" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="POPULARITY" value="11" x="26.6446" y="245.2624" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="26.6446" y="246.2624" size="0.0254" layer="27"/>
+</element>
+<element name="VCC" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="23.8252" y="245.2624" smashed="yes">
+<attribute name="NAME" x="23.8506" y="247.4722" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="POPULARITY" value="11" x="23.8252" y="245.2624" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="23.8252" y="246.2624" size="0.0254" layer="27"/>
+</element>
+<element name="SDA" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="18.542" y="242.5446" smashed="yes">
+<attribute name="NAME" x="13.589" y="242.6716" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="18.542" y="242.5446" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="18.542" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="SCL" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="18.542" y="239.7252" smashed="yes">
+<attribute name="NAME" x="13.589" y="239.8522" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="18.542" y="239.7252" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="18.542" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="77.8764" y="242.824" smashed="yes" rot="R270">
+<attribute name="NAME" x="79.2734" y="244.094" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="75.8444" y="244.094" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+</element>
+<element name="PAD5" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="83.3628" y="242.5446" smashed="yes">
+<attribute name="NAME" x="82.2198" y="243.9416" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="77.0128" y="243.8146" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="83.3628" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="PAD6" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="86.1822" y="242.5446" smashed="yes">
+<attribute name="NAME" x="85.0392" y="243.9416" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="86.1822" y="243.8146" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="86.1822" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="PAD7" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="83.3628" y="239.7252" smashed="yes">
+<attribute name="NAME" x="82.2198" y="241.1222" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="77.0128" y="235.9152" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="83.3628" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="PAD8" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="86.1822" y="239.7252" smashed="yes">
+<attribute name="NAME" x="85.0392" y="241.1222" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="86.1822" y="235.9152" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="86.1822" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="GND1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="80.6196" y="245.2624" smashed="yes">
+<attribute name="NAME" x="79.4766" y="246.6594" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="80.6196" y="221.1324" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="80.6196" y="246.2624" size="0.0254" layer="27"/>
+</element>
+<element name="VCC1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="77.8002" y="245.2624" smashed="yes">
+<attribute name="NAME" x="76.6572" y="246.6594" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="71.4502" y="216.0524" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="77.8002" y="246.2624" size="0.0254" layer="27"/>
+</element>
+<element name="SDA1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="72.517" y="242.5446" smashed="yes">
+<attribute name="NAME" x="71.374" y="243.9416" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="72.517" y="213.3346" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="72.517" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="SCL1" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="72.517" y="239.7252" smashed="yes">
+<attribute name="NAME" x="71.374" y="241.1222" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="66.167" y="215.5952" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="72.517" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="131.8514" y="242.824" smashed="yes" rot="R270">
+<attribute name="NAME" x="133.2484" y="244.094" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="129.8194" y="244.094" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+</element>
+<element name="PAD9" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="137.3378" y="242.5446" smashed="yes">
+<attribute name="NAME" x="136.1948" y="243.9416" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="137.3378" y="253.9746" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="137.3378" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="PAD10" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="140.1572" y="242.5446" smashed="yes">
+<attribute name="NAME" x="139.0142" y="243.9416" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="140.1572" y="233.6546" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="140.1572" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="PAD11" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="137.3378" y="239.7252" smashed="yes">
+<attribute name="NAME" x="136.1948" y="241.1222" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="137.3378" y="230.8352" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="137.3378" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="PAD12" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="140.1572" y="239.7252" smashed="yes">
+<attribute name="NAME" x="139.0142" y="241.1222" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="132.5372" y="220.6752" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="140.1572" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="GND2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="134.5946" y="245.2624" smashed="yes">
+<attribute name="NAME" x="133.4516" y="246.6594" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="126.9746" y="226.2124" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="134.5946" y="246.2624" size="0.0254" layer="27"/>
+</element>
+<element name="VCC2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="131.7752" y="245.2624" smashed="yes">
+<attribute name="NAME" x="130.6322" y="246.6594" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="131.7752" y="226.2124" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="131.7752" y="246.2624" size="0.0254" layer="27"/>
+</element>
+<element name="SDA2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="126.492" y="242.5446" smashed="yes">
+<attribute name="NAME" x="125.349" y="243.9416" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="120.142" y="218.4146" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="126.492" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="SCL2" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="126.492" y="239.7252" smashed="yes">
+<attribute name="NAME" x="125.349" y="241.1222" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="120.142" y="215.5952" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="126.492" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="186.182" y="243.1796" smashed="yes" rot="R270">
+<attribute name="NAME" x="187.579" y="244.4496" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="184.15" y="244.4496" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+</element>
+<element name="PAD13" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="191.6684" y="242.9002" smashed="yes">
+<attribute name="NAME" x="190.5254" y="244.2972" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="191.6684" y="239.0902" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="191.6684" y="243.9002" size="0.0254" layer="27"/>
+</element>
+<element name="PAD14" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="194.4878" y="242.9002" smashed="yes">
+<attribute name="NAME" x="193.3448" y="244.2972" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="186.8678" y="234.0102" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="194.4878" y="243.9002" size="0.0254" layer="27"/>
+</element>
+<element name="PAD15" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="191.6684" y="240.0554" smashed="yes">
+<attribute name="NAME" x="190.5254" y="241.4524" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="191.6684" y="231.1654" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="191.6684" y="241.0554" size="0.0254" layer="27"/>
+</element>
+<element name="PAD16" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="194.4878" y="240.0554" smashed="yes">
+<attribute name="NAME" x="193.3448" y="241.4524" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="186.8678" y="226.0854" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="194.4878" y="241.0554" size="0.0254" layer="27"/>
+</element>
+<element name="GND3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="188.9252" y="245.618" smashed="yes">
+<attribute name="NAME" x="187.7822" y="247.015" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="188.9252" y="231.648" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="188.9252" y="246.618" size="0.0254" layer="27"/>
+</element>
+<element name="VCC3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="186.1058" y="245.618" smashed="yes">
+<attribute name="NAME" x="184.9628" y="247.015" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="179.7558" y="226.568" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="186.1058" y="246.618" size="0.0254" layer="27"/>
+</element>
+<element name="SDA3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="180.7972" y="242.8748" smashed="yes">
+<attribute name="NAME" x="179.6542" y="244.2718" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="180.7972" y="223.8248" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.7972" y="243.8748" size="0.0254" layer="27"/>
+</element>
+<element name="SCL3" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="180.7972" y="240.0554" smashed="yes">
+<attribute name="NAME" x="179.6542" y="241.4524" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="174.4472" y="215.9254" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.7972" y="241.0554" size="0.0254" layer="27"/>
+</element>
+<element name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="240.1316" y="242.824" smashed="yes" rot="R270">
+<attribute name="NAME" x="241.5286" y="244.094" size="0.6096" layer="25" font="vector" ratio="20" rot="R270"/>
+<attribute name="VALUE" x="238.0996" y="244.094" size="0.6096" layer="27" font="vector" ratio="20" rot="R270"/>
+</element>
+<element name="PAD17" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="245.6434" y="242.5446" smashed="yes">
+<attribute name="NAME" x="244.5004" y="243.9416" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="245.6434" y="238.7346" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="245.6434" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="PAD18" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="248.4628" y="242.5446" smashed="yes">
+<attribute name="NAME" x="247.3198" y="243.9416" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="240.8428" y="233.6546" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="248.4628" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="PAD19" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="245.6434" y="239.7252" smashed="yes">
+<attribute name="NAME" x="244.5004" y="241.1222" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="245.6434" y="230.8352" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="245.6434" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="PAD20" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="248.4628" y="239.7252" smashed="yes">
+<attribute name="NAME" x="247.3198" y="241.1222" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="240.8428" y="225.7552" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="248.4628" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="GND4" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="242.8748" y="245.2624" smashed="yes">
+<attribute name="NAME" x="241.7318" y="246.6594" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="242.8748" y="231.2924" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="242.8748" y="246.2624" size="0.0254" layer="27"/>
+</element>
+<element name="VCC4" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="240.0554" y="245.2624" smashed="yes">
+<attribute name="NAME" x="238.9124" y="246.6594" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.7054" y="226.2124" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="240.0554" y="246.2624" size="0.0254" layer="27"/>
+</element>
+<element name="SDA4" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="234.7722" y="242.5446" smashed="yes">
+<attribute name="NAME" x="233.6292" y="243.9416" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="234.7722" y="223.4946" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="234.7722" y="243.5446" size="0.0254" layer="27"/>
+</element>
+<element name="SCL4" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="234.7722" y="239.7252" smashed="yes">
+<attribute name="NAME" x="233.6292" y="241.1222" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="228.4222" y="215.5952" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="234.7722" y="240.7252" size="0.0254" layer="27"/>
+</element>
+<element name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="13.97" y="189.23" smashed="yes">
+<attribute name="NAME" x="12.7" y="190.627" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="12.7" y="187.198" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD21" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="13.97" y="208.28" smashed="yes">
+<attribute name="NAME" x="12.827" y="209.677" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="13.97" y="204.47" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.97" y="209.28" size="0.0254" layer="27"/>
+</element>
+<element name="PAD22" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="21.59" y="208.28" smashed="yes">
+<attribute name="NAME" x="20.447" y="209.677" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="13.97" y="199.39" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="21.59" y="209.28" size="0.0254" layer="27"/>
+</element>
+<element name="PAD23" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="13.97" y="203.2" smashed="yes">
+<attribute name="NAME" x="12.827" y="204.597" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="13.97" y="194.31" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.97" y="204.2" size="0.0254" layer="27"/>
+</element>
+<element name="PAD24" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="21.59" y="203.2" smashed="yes">
+<attribute name="NAME" x="20.447" y="204.597" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="13.97" y="189.23" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="21.59" y="204.2" size="0.0254" layer="27"/>
+</element>
+<element name="GND5" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="13.97" y="198.12" smashed="yes">
+<attribute name="NAME" x="12.827" y="199.517" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="13.97" y="184.15" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.97" y="199.12" size="0.0254" layer="27"/>
+</element>
+<element name="VCC5" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="20.32" y="198.12" smashed="yes">
+<attribute name="NAME" x="19.177" y="199.517" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="13.97" y="179.07" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.32" y="199.12" size="0.0254" layer="27"/>
+</element>
+<element name="SDA5" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="13.97" y="193.04" smashed="yes">
+<attribute name="NAME" x="12.827" y="194.437" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="13.97" y="173.99" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.97" y="194.04" size="0.0254" layer="27"/>
+</element>
+<element name="SCL5" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="20.32" y="193.04" smashed="yes">
+<attribute name="NAME" x="19.177" y="194.437" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="13.97" y="168.91" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.32" y="194.04" size="0.0254" layer="27"/>
+</element>
+<element name="J7" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="59.69" y="190.5" smashed="yes">
+<attribute name="NAME" x="58.42" y="191.897" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="58.42" y="188.468" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD25" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="59.69" y="209.55" smashed="yes">
+<attribute name="NAME" x="58.547" y="210.947" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="205.74" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="59.69" y="210.55" size="0.0254" layer="27"/>
+</element>
+<element name="PAD26" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="67.31" y="209.55" smashed="yes">
+<attribute name="NAME" x="66.167" y="210.947" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="200.66" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.31" y="210.55" size="0.0254" layer="27"/>
+</element>
+<element name="PAD27" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="59.69" y="204.47" smashed="yes">
+<attribute name="NAME" x="58.547" y="205.867" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="195.58" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="59.69" y="205.47" size="0.0254" layer="27"/>
+</element>
+<element name="PAD28" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="67.31" y="204.47" smashed="yes">
+<attribute name="NAME" x="66.167" y="205.867" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="190.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.31" y="205.47" size="0.0254" layer="27"/>
+</element>
+<element name="GND6" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="59.69" y="199.39" smashed="yes">
+<attribute name="NAME" x="58.547" y="200.787" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="185.42" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="59.69" y="200.39" size="0.0254" layer="27"/>
+</element>
+<element name="VCC6" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="66.04" y="199.39" smashed="yes">
+<attribute name="NAME" x="64.897" y="200.787" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="180.34" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="66.04" y="200.39" size="0.0254" layer="27"/>
+</element>
+<element name="SDA6" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="59.69" y="194.31" smashed="yes">
+<attribute name="NAME" x="58.547" y="195.707" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="175.26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="59.69" y="195.31" size="0.0254" layer="27"/>
+</element>
+<element name="SCL6" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="66.04" y="194.31" smashed="yes">
+<attribute name="NAME" x="64.897" y="195.707" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="170.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="66.04" y="195.31" size="0.0254" layer="27"/>
+</element>
+<element name="J8" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="115.57" y="190.5" smashed="yes">
+<attribute name="NAME" x="114.3" y="191.897" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="114.3" y="188.468" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD29" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="115.57" y="209.55" smashed="yes">
+<attribute name="NAME" x="114.427" y="210.947" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="205.74" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="115.57" y="210.55" size="0.0254" layer="27"/>
+</element>
+<element name="PAD30" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="123.19" y="209.55" smashed="yes">
+<attribute name="NAME" x="122.047" y="210.947" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="200.66" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="123.19" y="210.55" size="0.0254" layer="27"/>
+</element>
+<element name="PAD31" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="115.57" y="204.47" smashed="yes">
+<attribute name="NAME" x="114.427" y="205.867" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="195.58" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="115.57" y="205.47" size="0.0254" layer="27"/>
+</element>
+<element name="PAD32" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="123.19" y="204.47" smashed="yes">
+<attribute name="NAME" x="122.047" y="205.867" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="190.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="123.19" y="205.47" size="0.0254" layer="27"/>
+</element>
+<element name="GND7" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="115.57" y="199.39" smashed="yes">
+<attribute name="NAME" x="114.427" y="200.787" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="185.42" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="115.57" y="200.39" size="0.0254" layer="27"/>
+</element>
+<element name="VCC7" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="121.92" y="199.39" smashed="yes">
+<attribute name="NAME" x="120.777" y="200.787" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="180.34" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="121.92" y="200.39" size="0.0254" layer="27"/>
+</element>
+<element name="SDA7" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="115.57" y="194.31" smashed="yes">
+<attribute name="NAME" x="114.427" y="195.707" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="175.26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="115.57" y="195.31" size="0.0254" layer="27"/>
+</element>
+<element name="SCL7" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="121.92" y="194.31" smashed="yes">
+<attribute name="NAME" x="120.777" y="195.707" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="170.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="121.92" y="195.31" size="0.0254" layer="27"/>
+</element>
+<element name="J9" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="172.72" y="186.69" smashed="yes">
+<attribute name="NAME" x="171.45" y="188.087" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="171.45" y="184.658" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD33" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="172.72" y="205.74" smashed="yes">
+<attribute name="NAME" x="171.577" y="207.137" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="201.93" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="206.74" size="0.0254" layer="27"/>
+</element>
+<element name="PAD34" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="180.34" y="205.74" smashed="yes">
+<attribute name="NAME" x="179.197" y="207.137" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="196.85" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.34" y="206.74" size="0.0254" layer="27"/>
+</element>
+<element name="PAD35" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="172.72" y="200.66" smashed="yes">
+<attribute name="NAME" x="171.577" y="202.057" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="191.77" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="201.66" size="0.0254" layer="27"/>
+</element>
+<element name="PAD36" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="180.34" y="200.66" smashed="yes">
+<attribute name="NAME" x="179.197" y="202.057" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="186.69" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.34" y="201.66" size="0.0254" layer="27"/>
+</element>
+<element name="GND8" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="172.72" y="195.58" smashed="yes">
+<attribute name="NAME" x="171.577" y="196.977" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="181.61" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="196.58" size="0.0254" layer="27"/>
+</element>
+<element name="VCC8" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="179.07" y="195.58" smashed="yes">
+<attribute name="NAME" x="177.927" y="196.977" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="176.53" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="179.07" y="196.58" size="0.0254" layer="27"/>
+</element>
+<element name="SDA8" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="172.72" y="190.5" smashed="yes">
+<attribute name="NAME" x="171.577" y="191.897" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="171.45" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="191.5" size="0.0254" layer="27"/>
+</element>
+<element name="SCL8" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="179.07" y="190.5" smashed="yes">
+<attribute name="NAME" x="177.927" y="191.897" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="166.37" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="179.07" y="191.5" size="0.0254" layer="27"/>
+</element>
+<element name="J10" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="237.49" y="185.42" smashed="yes">
+<attribute name="NAME" x="236.22" y="186.817" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="236.22" y="183.388" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD37" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="237.49" y="204.47" smashed="yes">
+<attribute name="NAME" x="236.347" y="205.867" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="237.49" y="200.66" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="237.49" y="205.47" size="0.0254" layer="27"/>
+</element>
+<element name="PAD38" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="245.11" y="204.47" smashed="yes">
+<attribute name="NAME" x="243.967" y="205.867" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="237.49" y="195.58" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="245.11" y="205.47" size="0.0254" layer="27"/>
+</element>
+<element name="PAD39" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="237.49" y="199.39" smashed="yes">
+<attribute name="NAME" x="236.347" y="200.787" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="237.49" y="190.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="237.49" y="200.39" size="0.0254" layer="27"/>
+</element>
+<element name="PAD40" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="245.11" y="199.39" smashed="yes">
+<attribute name="NAME" x="243.967" y="200.787" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="237.49" y="185.42" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="245.11" y="200.39" size="0.0254" layer="27"/>
+</element>
+<element name="GND9" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="237.49" y="194.31" smashed="yes">
+<attribute name="NAME" x="236.347" y="195.707" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="237.49" y="180.34" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="237.49" y="195.31" size="0.0254" layer="27"/>
+</element>
+<element name="VCC9" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="243.84" y="194.31" smashed="yes">
+<attribute name="NAME" x="242.697" y="195.707" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="237.49" y="175.26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="243.84" y="195.31" size="0.0254" layer="27"/>
+</element>
+<element name="SDA9" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="237.49" y="189.23" smashed="yes">
+<attribute name="NAME" x="236.347" y="190.627" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="237.49" y="170.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="237.49" y="190.23" size="0.0254" layer="27"/>
+</element>
+<element name="SCL9" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="243.84" y="189.23" smashed="yes">
+<attribute name="NAME" x="242.697" y="190.627" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="237.49" y="165.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="243.84" y="190.23" size="0.0254" layer="27"/>
+</element>
+<element name="J11" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="12.7" y="137.16" smashed="yes">
+<attribute name="NAME" x="11.43" y="138.557" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="11.43" y="135.128" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD41" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="20.32" y="151.13" smashed="yes">
+<attribute name="NAME" x="19.177" y="152.527" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="12.7" y="152.4" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.32" y="152.13" size="0.0254" layer="27"/>
+</element>
+<element name="PAD42" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="12.7" y="146.05" smashed="yes">
+<attribute name="NAME" x="11.557" y="147.447" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="12.7" y="147.32" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.7" y="147.05" size="0.0254" layer="27"/>
+</element>
+<element name="PAD43" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="20.32" y="146.05" smashed="yes">
+<attribute name="NAME" x="19.177" y="147.447" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="12.7" y="142.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.32" y="147.05" size="0.0254" layer="27"/>
+</element>
+<element name="PAD44" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="12.7" y="140.97" smashed="yes">
+<attribute name="NAME" x="11.557" y="142.367" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="12.7" y="137.16" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.7" y="141.97" size="0.0254" layer="27"/>
+</element>
+<element name="GND10" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="12.7" y="156.21" smashed="yes">
+<attribute name="NAME" x="11.557" y="157.607" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="12.7" y="132.08" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.7" y="157.21" size="0.0254" layer="27"/>
+</element>
+<element name="VCC10" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="20.32" y="156.21" smashed="yes">
+<attribute name="NAME" x="19.177" y="157.607" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="12.7" y="127" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.32" y="157.21" size="0.0254" layer="27"/>
+</element>
+<element name="SDA10" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="12.7" y="151.13" smashed="yes">
+<attribute name="NAME" x="11.557" y="152.527" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="12.7" y="121.92" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="12.7" y="152.13" size="0.0254" layer="27"/>
+</element>
+<element name="SCL10" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="20.32" y="140.97" smashed="yes">
+<attribute name="NAME" x="19.177" y="142.367" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="12.7" y="116.84" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.32" y="141.97" size="0.0254" layer="27"/>
+</element>
+<element name="J12" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="59.69" y="139.7" smashed="yes">
+<attribute name="NAME" x="58.42" y="141.097" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="58.42" y="137.668" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD45" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="59.69" y="153.67" smashed="yes">
+<attribute name="NAME" x="58.547" y="155.067" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="154.94" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="59.69" y="154.67" size="0.0254" layer="27"/>
+</element>
+<element name="PAD46" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="67.31" y="153.67" smashed="yes">
+<attribute name="NAME" x="66.167" y="155.067" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="149.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.31" y="154.67" size="0.0254" layer="27"/>
+</element>
+<element name="PAD47" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="59.69" y="148.59" smashed="yes">
+<attribute name="NAME" x="58.547" y="149.987" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="144.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="59.69" y="149.59" size="0.0254" layer="27"/>
+</element>
+<element name="PAD48" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="67.31" y="148.59" smashed="yes">
+<attribute name="NAME" x="66.167" y="149.987" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="139.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.31" y="149.59" size="0.0254" layer="27"/>
+</element>
+<element name="GND11" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="59.69" y="158.75" smashed="yes">
+<attribute name="NAME" x="58.547" y="160.147" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="134.62" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="59.69" y="159.75" size="0.0254" layer="27"/>
+</element>
+<element name="VCC11" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="67.31" y="158.75" smashed="yes">
+<attribute name="NAME" x="66.167" y="160.147" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="129.54" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.31" y="159.75" size="0.0254" layer="27"/>
+</element>
+<element name="SDA11" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="59.69" y="143.51" smashed="yes">
+<attribute name="NAME" x="58.547" y="144.907" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="124.46" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="59.69" y="144.51" size="0.0254" layer="27"/>
+</element>
+<element name="SCL11" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="67.31" y="143.51" smashed="yes">
+<attribute name="NAME" x="66.167" y="144.907" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="59.69" y="119.38" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="67.31" y="144.51" size="0.0254" layer="27"/>
+</element>
+<element name="J13" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="115.57" y="140.97" smashed="yes">
+<attribute name="NAME" x="114.3" y="142.367" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="114.3" y="138.938" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD49" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="123.19" y="154.94" smashed="yes">
+<attribute name="NAME" x="122.047" y="156.337" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="156.21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="123.19" y="155.94" size="0.0254" layer="27"/>
+</element>
+<element name="PAD50" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="115.57" y="149.86" smashed="yes">
+<attribute name="NAME" x="114.427" y="151.257" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="151.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="115.57" y="150.86" size="0.0254" layer="27"/>
+</element>
+<element name="PAD51" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="123.19" y="149.86" smashed="yes">
+<attribute name="NAME" x="122.047" y="151.257" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="146.05" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="123.19" y="150.86" size="0.0254" layer="27"/>
+</element>
+<element name="PAD52" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="115.57" y="144.78" smashed="yes">
+<attribute name="NAME" x="114.427" y="146.177" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="140.97" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="115.57" y="145.78" size="0.0254" layer="27"/>
+</element>
+<element name="GND12" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="115.57" y="160.02" smashed="yes">
+<attribute name="NAME" x="114.427" y="161.417" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="135.89" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="115.57" y="161.02" size="0.0254" layer="27"/>
+</element>
+<element name="VCC12" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="123.19" y="160.02" smashed="yes">
+<attribute name="NAME" x="122.047" y="161.417" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="130.81" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="123.19" y="161.02" size="0.0254" layer="27"/>
+</element>
+<element name="SDA12" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="115.57" y="154.94" smashed="yes">
+<attribute name="NAME" x="114.427" y="156.337" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="125.73" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="115.57" y="155.94" size="0.0254" layer="27"/>
+</element>
+<element name="SCL12" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="123.19" y="144.78" smashed="yes">
+<attribute name="NAME" x="122.047" y="146.177" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="115.57" y="120.65" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="123.19" y="145.78" size="0.0254" layer="27"/>
+</element>
+<element name="J14" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="172.72" y="140.97" smashed="yes">
+<attribute name="NAME" x="171.45" y="142.367" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="171.45" y="138.938" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD53" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="180.34" y="154.94" smashed="yes">
+<attribute name="NAME" x="179.197" y="156.337" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="156.21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.34" y="155.94" size="0.0254" layer="27"/>
+</element>
+<element name="PAD54" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="172.72" y="149.86" smashed="yes">
+<attribute name="NAME" x="171.577" y="151.257" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="151.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="150.86" size="0.0254" layer="27"/>
+</element>
+<element name="PAD55" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="180.34" y="149.86" smashed="yes">
+<attribute name="NAME" x="179.197" y="151.257" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="146.05" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.34" y="150.86" size="0.0254" layer="27"/>
+</element>
+<element name="PAD56" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="172.72" y="144.78" smashed="yes">
+<attribute name="NAME" x="171.577" y="146.177" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="140.97" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="145.78" size="0.0254" layer="27"/>
+</element>
+<element name="GND13" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="172.72" y="160.02" smashed="yes">
+<attribute name="NAME" x="171.577" y="161.417" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="135.89" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="161.02" size="0.0254" layer="27"/>
+</element>
+<element name="VCC13" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="180.34" y="160.02" smashed="yes">
+<attribute name="NAME" x="179.197" y="161.417" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="130.81" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.34" y="161.02" size="0.0254" layer="27"/>
+</element>
+<element name="SDA13" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="172.72" y="154.94" smashed="yes">
+<attribute name="NAME" x="171.577" y="156.337" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="125.73" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="155.94" size="0.0254" layer="27"/>
+</element>
+<element name="SCL13" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="180.34" y="144.78" smashed="yes">
+<attribute name="NAME" x="179.197" y="146.177" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="120.65" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.34" y="145.78" size="0.0254" layer="27"/>
+</element>
+<element name="J15" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="234.95" y="138.43" smashed="yes">
+<attribute name="NAME" x="233.68" y="139.827" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="233.68" y="136.398" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD57" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="242.57" y="152.4" smashed="yes">
+<attribute name="NAME" x="241.427" y="153.797" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="234.95" y="153.67" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="242.57" y="153.4" size="0.0254" layer="27"/>
+</element>
+<element name="PAD58" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="234.95" y="147.32" smashed="yes">
+<attribute name="NAME" x="233.807" y="148.717" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="234.95" y="148.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="234.95" y="148.32" size="0.0254" layer="27"/>
+</element>
+<element name="PAD59" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="242.57" y="147.32" smashed="yes">
+<attribute name="NAME" x="241.427" y="148.717" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="234.95" y="143.51" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="242.57" y="148.32" size="0.0254" layer="27"/>
+</element>
+<element name="PAD60" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="234.95" y="142.24" smashed="yes">
+<attribute name="NAME" x="233.807" y="143.637" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="234.95" y="138.43" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="234.95" y="143.24" size="0.0254" layer="27"/>
+</element>
+<element name="GND14" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="234.95" y="157.48" smashed="yes">
+<attribute name="NAME" x="233.807" y="158.877" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="234.95" y="133.35" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="234.95" y="158.48" size="0.0254" layer="27"/>
+</element>
+<element name="VCC14" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="242.57" y="157.48" smashed="yes">
+<attribute name="NAME" x="241.427" y="158.877" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="234.95" y="128.27" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="242.57" y="158.48" size="0.0254" layer="27"/>
+</element>
+<element name="SDA14" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="234.95" y="152.4" smashed="yes">
+<attribute name="NAME" x="233.807" y="153.797" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="234.95" y="123.19" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="234.95" y="153.4" size="0.0254" layer="27"/>
+</element>
+<element name="SCL14" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="242.57" y="142.24" smashed="yes">
+<attribute name="NAME" x="241.427" y="143.637" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="234.95" y="118.11" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="242.57" y="143.24" size="0.0254" layer="27"/>
+</element>
+<element name="J16" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="11.43" y="81.28" smashed="yes">
+<attribute name="NAME" x="10.16" y="82.677" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="10.16" y="79.248" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD61" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="19.05" y="95.25" smashed="yes">
+<attribute name="NAME" x="17.907" y="96.647" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="11.43" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="96.25" size="0.0254" layer="27"/>
+</element>
+<element name="PAD62" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="11.43" y="90.17" smashed="yes">
+<attribute name="NAME" x="10.287" y="91.567" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="11.43" y="91.44" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.43" y="91.17" size="0.0254" layer="27"/>
+</element>
+<element name="PAD63" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="19.05" y="90.17" smashed="yes">
+<attribute name="NAME" x="17.907" y="91.567" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="11.43" y="86.36" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="91.17" size="0.0254" layer="27"/>
+</element>
+<element name="PAD64" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="11.43" y="85.09" smashed="yes">
+<attribute name="NAME" x="10.287" y="86.487" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="11.43" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.43" y="86.09" size="0.0254" layer="27"/>
+</element>
+<element name="GND15" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="11.43" y="100.33" smashed="yes">
+<attribute name="NAME" x="10.287" y="101.727" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="11.43" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.43" y="101.33" size="0.0254" layer="27"/>
+</element>
+<element name="VCC15" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="19.05" y="100.33" smashed="yes">
+<attribute name="NAME" x="17.907" y="101.727" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="11.43" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="101.33" size="0.0254" layer="27"/>
+</element>
+<element name="SDA15" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="11.43" y="95.25" smashed="yes">
+<attribute name="NAME" x="10.287" y="96.647" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="11.43" y="66.04" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="11.43" y="96.25" size="0.0254" layer="27"/>
+</element>
+<element name="SCL15" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="19.05" y="85.09" smashed="yes">
+<attribute name="NAME" x="17.907" y="86.487" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="11.43" y="60.96" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="19.05" y="86.09" size="0.0254" layer="27"/>
+</element>
+<element name="J17" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="62.23" y="82.55" smashed="yes">
+<attribute name="NAME" x="60.96" y="83.947" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="60.96" y="80.518" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD65" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="69.85" y="96.52" smashed="yes">
+<attribute name="NAME" x="68.707" y="97.917" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="97.79" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.85" y="97.52" size="0.0254" layer="27"/>
+</element>
+<element name="PAD66" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="62.23" y="91.44" smashed="yes">
+<attribute name="NAME" x="61.087" y="92.837" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="92.71" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="62.23" y="92.44" size="0.0254" layer="27"/>
+</element>
+<element name="PAD67" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="69.85" y="91.44" smashed="yes">
+<attribute name="NAME" x="68.707" y="92.837" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="87.63" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.85" y="92.44" size="0.0254" layer="27"/>
+</element>
+<element name="PAD68" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="62.23" y="86.36" smashed="yes">
+<attribute name="NAME" x="61.087" y="87.757" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="82.55" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="62.23" y="87.36" size="0.0254" layer="27"/>
+</element>
+<element name="GND16" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="62.23" y="101.6" smashed="yes">
+<attribute name="NAME" x="61.087" y="102.997" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="77.47" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="62.23" y="102.6" size="0.0254" layer="27"/>
+</element>
+<element name="VCC16" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="69.85" y="101.6" smashed="yes">
+<attribute name="NAME" x="68.707" y="102.997" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="72.39" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.85" y="102.6" size="0.0254" layer="27"/>
+</element>
+<element name="SDA16" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="62.23" y="96.52" smashed="yes">
+<attribute name="NAME" x="61.087" y="97.917" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="67.31" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="62.23" y="97.52" size="0.0254" layer="27"/>
+</element>
+<element name="SCL16" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="69.85" y="86.36" smashed="yes">
+<attribute name="NAME" x="68.707" y="87.757" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="62.23" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.85" y="87.36" size="0.0254" layer="27"/>
+</element>
+<element name="J18" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="116.84" y="85.09" smashed="yes">
+<attribute name="NAME" x="115.57" y="86.487" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="115.57" y="83.058" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD69" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="124.46" y="99.06" smashed="yes">
+<attribute name="NAME" x="123.317" y="100.457" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="116.84" y="100.33" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="124.46" y="100.06" size="0.0254" layer="27"/>
+</element>
+<element name="PAD70" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="116.84" y="93.98" smashed="yes">
+<attribute name="NAME" x="115.697" y="95.377" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="116.84" y="95.25" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="116.84" y="94.98" size="0.0254" layer="27"/>
+</element>
+<element name="PAD71" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="124.46" y="93.98" smashed="yes">
+<attribute name="NAME" x="123.317" y="95.377" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="116.84" y="90.17" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="124.46" y="94.98" size="0.0254" layer="27"/>
+</element>
+<element name="PAD72" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="116.84" y="88.9" smashed="yes">
+<attribute name="NAME" x="115.697" y="90.297" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="116.84" y="85.09" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="116.84" y="89.9" size="0.0254" layer="27"/>
+</element>
+<element name="GND17" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="116.84" y="104.14" smashed="yes">
+<attribute name="NAME" x="115.697" y="105.537" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="116.84" y="80.01" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="116.84" y="105.14" size="0.0254" layer="27"/>
+</element>
+<element name="VCC17" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="124.46" y="104.14" smashed="yes">
+<attribute name="NAME" x="123.317" y="105.537" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="116.84" y="74.93" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="124.46" y="105.14" size="0.0254" layer="27"/>
+</element>
+<element name="SDA17" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="116.84" y="99.06" smashed="yes">
+<attribute name="NAME" x="115.697" y="100.457" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="116.84" y="69.85" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="116.84" y="100.06" size="0.0254" layer="27"/>
+</element>
+<element name="SCL17" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="124.46" y="88.9" smashed="yes">
+<attribute name="NAME" x="123.317" y="90.297" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="116.84" y="64.77" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="124.46" y="89.9" size="0.0254" layer="27"/>
+</element>
+<element name="J19" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="172.72" y="83.82" smashed="yes">
+<attribute name="NAME" x="171.45" y="85.217" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="171.45" y="81.788" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD73" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="180.34" y="97.79" smashed="yes">
+<attribute name="NAME" x="179.197" y="99.187" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="99.06" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.34" y="98.79" size="0.0254" layer="27"/>
+</element>
+<element name="PAD74" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="172.72" y="92.71" smashed="yes">
+<attribute name="NAME" x="171.577" y="94.107" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="93.98" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="93.71" size="0.0254" layer="27"/>
+</element>
+<element name="PAD75" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="180.34" y="92.71" smashed="yes">
+<attribute name="NAME" x="179.197" y="94.107" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="88.9" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.34" y="93.71" size="0.0254" layer="27"/>
+</element>
+<element name="PAD76" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="172.72" y="87.63" smashed="yes">
+<attribute name="NAME" x="171.577" y="89.027" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="83.82" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="88.63" size="0.0254" layer="27"/>
+</element>
+<element name="GND18" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="172.72" y="102.87" smashed="yes">
+<attribute name="NAME" x="171.577" y="104.267" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="78.74" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="103.87" size="0.0254" layer="27"/>
+</element>
+<element name="VCC18" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="180.34" y="102.87" smashed="yes">
+<attribute name="NAME" x="179.197" y="104.267" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="73.66" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.34" y="103.87" size="0.0254" layer="27"/>
+</element>
+<element name="SDA18" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="172.72" y="97.79" smashed="yes">
+<attribute name="NAME" x="171.577" y="99.187" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="68.58" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="172.72" y="98.79" size="0.0254" layer="27"/>
+</element>
+<element name="SCL18" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="180.34" y="87.63" smashed="yes">
+<attribute name="NAME" x="179.197" y="89.027" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="172.72" y="63.5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="180.34" y="88.63" size="0.0254" layer="27"/>
+</element>
+<element name="J20" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="233.68" y="81.28" smashed="yes">
+<attribute name="NAME" x="232.41" y="82.677" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="232.41" y="79.248" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD77" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="241.3" y="95.25" smashed="yes">
+<attribute name="NAME" x="240.157" y="96.647" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="96.52" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="241.3" y="96.25" size="0.0254" layer="27"/>
+</element>
+<element name="PAD78" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="233.68" y="90.17" smashed="yes">
+<attribute name="NAME" x="232.537" y="91.567" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="91.44" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="233.68" y="91.17" size="0.0254" layer="27"/>
+</element>
+<element name="PAD79" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="241.3" y="90.17" smashed="yes">
+<attribute name="NAME" x="240.157" y="91.567" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="86.36" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="241.3" y="91.17" size="0.0254" layer="27"/>
+</element>
+<element name="PAD80" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="233.68" y="85.09" smashed="yes">
+<attribute name="NAME" x="232.537" y="86.487" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="81.28" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="233.68" y="86.09" size="0.0254" layer="27"/>
+</element>
+<element name="GND19" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="233.68" y="100.33" smashed="yes">
+<attribute name="NAME" x="232.537" y="101.727" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="76.2" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="233.68" y="101.33" size="0.0254" layer="27"/>
+</element>
+<element name="VCC19" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="241.3" y="100.33" smashed="yes">
+<attribute name="NAME" x="240.157" y="101.727" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="241.3" y="101.33" size="0.0254" layer="27"/>
+</element>
+<element name="SDA19" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="233.68" y="95.25" smashed="yes">
+<attribute name="NAME" x="232.537" y="96.647" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="66.04" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="233.68" y="96.25" size="0.0254" layer="27"/>
+</element>
+<element name="SCL19" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="241.3" y="85.09" smashed="yes">
+<attribute name="NAME" x="240.157" y="86.487" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="60.96" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="241.3" y="86.09" size="0.0254" layer="27"/>
+</element>
+<element name="J21" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="10.16" y="30.48" smashed="yes">
+<attribute name="NAME" x="8.89" y="31.877" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="8.89" y="28.448" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD81" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="17.78" y="44.45" smashed="yes">
+<attribute name="NAME" x="16.637" y="45.847" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="10.16" y="45.72" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.78" y="45.45" size="0.0254" layer="27"/>
+</element>
+<element name="PAD82" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="10.16" y="39.37" smashed="yes">
+<attribute name="NAME" x="9.017" y="40.767" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="10.16" y="40.64" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="10.16" y="40.37" size="0.0254" layer="27"/>
+</element>
+<element name="PAD83" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="17.78" y="39.37" smashed="yes">
+<attribute name="NAME" x="16.637" y="40.767" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="10.16" y="35.56" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.78" y="40.37" size="0.0254" layer="27"/>
+</element>
+<element name="PAD84" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="10.16" y="34.29" smashed="yes">
+<attribute name="NAME" x="9.017" y="35.687" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="10.16" y="30.48" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="10.16" y="35.29" size="0.0254" layer="27"/>
+</element>
+<element name="GND20" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="10.16" y="49.53" smashed="yes">
+<attribute name="NAME" x="9.017" y="50.927" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="10.16" y="25.4" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="10.16" y="50.53" size="0.0254" layer="27"/>
+</element>
+<element name="VCC20" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="17.78" y="49.53" smashed="yes">
+<attribute name="NAME" x="16.637" y="50.927" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="10.16" y="20.32" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.78" y="50.53" size="0.0254" layer="27"/>
+</element>
+<element name="SDA20" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="10.16" y="44.45" smashed="yes">
+<attribute name="NAME" x="9.017" y="45.847" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="10.16" y="15.24" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="10.16" y="45.45" size="0.0254" layer="27"/>
+</element>
+<element name="SCL20" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="17.78" y="34.29" smashed="yes">
+<attribute name="NAME" x="16.637" y="35.687" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="10.16" y="10.16" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.78" y="35.29" size="0.0254" layer="27"/>
+</element>
+<element name="J22" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="62.23" y="33.02" smashed="yes">
+<attribute name="NAME" x="60.96" y="34.417" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="60.96" y="30.988" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD85" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="69.85" y="46.99" smashed="yes">
+<attribute name="NAME" x="68.707" y="48.387" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="48.26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.85" y="47.99" size="0.0254" layer="27"/>
+</element>
+<element name="PAD86" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="62.23" y="41.91" smashed="yes">
+<attribute name="NAME" x="61.087" y="43.307" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="43.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="62.23" y="42.91" size="0.0254" layer="27"/>
+</element>
+<element name="PAD87" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="69.85" y="41.91" smashed="yes">
+<attribute name="NAME" x="68.707" y="43.307" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.85" y="42.91" size="0.0254" layer="27"/>
+</element>
+<element name="PAD88" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="62.23" y="36.83" smashed="yes">
+<attribute name="NAME" x="61.087" y="38.227" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="62.23" y="37.83" size="0.0254" layer="27"/>
+</element>
+<element name="GND21" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="62.23" y="52.07" smashed="yes">
+<attribute name="NAME" x="61.087" y="53.467" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="62.23" y="53.07" size="0.0254" layer="27"/>
+</element>
+<element name="VCC21" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="69.85" y="52.07" smashed="yes">
+<attribute name="NAME" x="68.707" y="53.467" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.85" y="53.07" size="0.0254" layer="27"/>
+</element>
+<element name="SDA21" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="62.23" y="46.99" smashed="yes">
+<attribute name="NAME" x="61.087" y="48.387" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="62.23" y="47.99" size="0.0254" layer="27"/>
+</element>
+<element name="SCL21" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="69.85" y="36.83" smashed="yes">
+<attribute name="NAME" x="68.707" y="38.227" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="62.23" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="69.85" y="37.83" size="0.0254" layer="27"/>
+</element>
+<element name="J23" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="119.38" y="33.02" smashed="yes">
+<attribute name="NAME" x="118.11" y="34.417" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="118.11" y="30.988" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD89" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="127" y="46.99" smashed="yes">
+<attribute name="NAME" x="125.857" y="48.387" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="119.38" y="48.26" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="127" y="47.99" size="0.0254" layer="27"/>
+</element>
+<element name="PAD90" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="119.38" y="41.91" smashed="yes">
+<attribute name="NAME" x="118.237" y="43.307" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="119.38" y="43.18" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="119.38" y="42.91" size="0.0254" layer="27"/>
+</element>
+<element name="PAD91" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="127" y="41.91" smashed="yes">
+<attribute name="NAME" x="125.857" y="43.307" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="119.38" y="38.1" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="127" y="42.91" size="0.0254" layer="27"/>
+</element>
+<element name="PAD92" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="119.38" y="36.83" smashed="yes">
+<attribute name="NAME" x="118.237" y="38.227" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="119.38" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="119.38" y="37.83" size="0.0254" layer="27"/>
+</element>
+<element name="GND22" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="119.38" y="52.07" smashed="yes">
+<attribute name="NAME" x="118.237" y="53.467" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="119.38" y="27.94" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="119.38" y="53.07" size="0.0254" layer="27"/>
+</element>
+<element name="VCC22" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="127" y="52.07" smashed="yes">
+<attribute name="NAME" x="125.857" y="53.467" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="119.38" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="127" y="53.07" size="0.0254" layer="27"/>
+</element>
+<element name="SDA22" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="119.38" y="46.99" smashed="yes">
+<attribute name="NAME" x="118.237" y="48.387" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="119.38" y="17.78" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="119.38" y="47.99" size="0.0254" layer="27"/>
+</element>
+<element name="SCL22" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="127" y="36.83" smashed="yes">
+<attribute name="NAME" x="125.857" y="38.227" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="119.38" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="127" y="37.83" size="0.0254" layer="27"/>
+</element>
+<element name="J24" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="175.26" y="34.29" smashed="yes">
+<attribute name="NAME" x="173.99" y="35.687" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="173.99" y="32.258" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD93" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="182.88" y="48.26" smashed="yes">
+<attribute name="NAME" x="181.737" y="49.657" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="175.26" y="49.53" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="182.88" y="49.26" size="0.0254" layer="27"/>
+</element>
+<element name="PAD94" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="175.26" y="43.18" smashed="yes">
+<attribute name="NAME" x="174.117" y="44.577" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="175.26" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="175.26" y="44.18" size="0.0254" layer="27"/>
+</element>
+<element name="PAD95" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="182.88" y="43.18" smashed="yes">
+<attribute name="NAME" x="181.737" y="44.577" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="175.26" y="39.37" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="182.88" y="44.18" size="0.0254" layer="27"/>
+</element>
+<element name="PAD96" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="175.26" y="38.1" smashed="yes">
+<attribute name="NAME" x="174.117" y="39.497" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="175.26" y="34.29" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="175.26" y="39.1" size="0.0254" layer="27"/>
+</element>
+<element name="GND23" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="175.26" y="53.34" smashed="yes">
+<attribute name="NAME" x="174.117" y="54.737" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="175.26" y="29.21" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="175.26" y="54.34" size="0.0254" layer="27"/>
+</element>
+<element name="VCC23" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="182.88" y="53.34" smashed="yes">
+<attribute name="NAME" x="181.737" y="54.737" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="175.26" y="24.13" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="182.88" y="54.34" size="0.0254" layer="27"/>
+</element>
+<element name="SDA23" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="175.26" y="48.26" smashed="yes">
+<attribute name="NAME" x="174.117" y="49.657" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="175.26" y="19.05" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="175.26" y="49.26" size="0.0254" layer="27"/>
+</element>
+<element name="SCL23" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="182.88" y="38.1" smashed="yes">
+<attribute name="NAME" x="181.737" y="39.497" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="175.26" y="13.97" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="182.88" y="39.1" size="0.0254" layer="27"/>
+</element>
+<element name="J25" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X03" package3d_urn="urn:adsk.eagle:package:38063/1" value="" x="233.68" y="31.75" smashed="yes">
+<attribute name="NAME" x="232.41" y="33.147" size="0.6096" layer="25" font="vector" ratio="20"/>
+<attribute name="VALUE" x="232.41" y="29.718" size="0.6096" layer="27" font="vector" ratio="20"/>
+</element>
+<element name="PAD97" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="VCC" x="233.68" y="40.64" smashed="yes">
+<attribute name="NAME" x="232.537" y="42.037" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="46.99" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="233.68" y="41.64" size="0.0254" layer="27"/>
+</element>
+<element name="PAD98" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="241.3" y="40.64" smashed="yes">
+<attribute name="NAME" x="240.157" y="42.037" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="41.91" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="241.3" y="41.64" size="0.0254" layer="27"/>
+</element>
+<element name="PAD99" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="233.68" y="35.56" smashed="yes">
+<attribute name="NAME" x="232.537" y="36.957" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="36.83" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="233.68" y="36.56" size="0.0254" layer="27"/>
+</element>
+<element name="PAD100" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="233.68" y="50.8" smashed="yes">
+<attribute name="NAME" x="232.537" y="52.197" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="31.75" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="233.68" y="51.8" size="0.0254" layer="27"/>
+</element>
+<element name="GND24" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="GND" x="241.3" y="50.8" smashed="yes">
+<attribute name="NAME" x="240.157" y="52.197" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="26.67" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="241.3" y="51.8" size="0.0254" layer="27"/>
+</element>
+<element name="VCC24" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="233.68" y="45.72" smashed="yes">
+<attribute name="NAME" x="232.537" y="47.117" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="21.59" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="233.68" y="46.72" size="0.0254" layer="27"/>
+</element>
+<element name="SDA24" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="241.3" y="45.72" smashed="yes">
+<attribute name="NAME" x="240.157" y="47.117" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="16.51" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="241.3" y="46.72" size="0.0254" layer="27"/>
+</element>
+<element name="SCL24" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="2,15/1,0" package3d_urn="urn:adsk.eagle:package:30831/1" value="" x="241.3" y="35.56" smashed="yes">
+<attribute name="NAME" x="240.157" y="36.957" size="1.27" layer="25" ratio="10"/>
+<attribute name="POPULARITY" value="11" x="233.68" y="11.43" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="241.3" y="36.56" size="0.0254" layer="27"/>
+</element>
+</elements>
+<signals>
+<signal name="GND">
+<polygon width="0.1524" layer="1">
+<vertex x="0" y="266.7"/>
+<vertex x="266.7" y="266.7"/>
+<vertex x="266.7" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+<polygon width="0.1524" layer="16">
+<vertex x="0" y="266.7"/>
+<vertex x="266.7" y="266.7"/>
+<vertex x="266.7" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+<contactref element="GND" pad="1"/>
+<contactref element="PAD3" pad="1"/>
+<contactref element="J1" pad="2"/>
+<contactref element="J2" pad="2"/>
+<contactref element="PAD7" pad="1"/>
+<contactref element="GND1" pad="1"/>
+<contactref element="J3" pad="2"/>
+<contactref element="PAD11" pad="1"/>
+<contactref element="GND2" pad="1"/>
+<contactref element="J4" pad="2"/>
+<contactref element="PAD15" pad="1"/>
+<contactref element="GND3" pad="1"/>
+<contactref element="J5" pad="2"/>
+<contactref element="PAD19" pad="1"/>
+<contactref element="GND4" pad="1"/>
+<contactref element="J6" pad="2"/>
+<contactref element="PAD23" pad="1"/>
+<contactref element="GND5" pad="1"/>
+<contactref element="J7" pad="2"/>
+<contactref element="PAD27" pad="1"/>
+<contactref element="GND6" pad="1"/>
+<contactref element="J8" pad="2"/>
+<contactref element="PAD31" pad="1"/>
+<contactref element="GND7" pad="1"/>
+<contactref element="J9" pad="2"/>
+<contactref element="PAD35" pad="1"/>
+<contactref element="GND8" pad="1"/>
+<contactref element="J10" pad="2"/>
+<contactref element="PAD39" pad="1"/>
+<contactref element="GND9" pad="1"/>
+<contactref element="J11" pad="2"/>
+<contactref element="PAD43" pad="1"/>
+<contactref element="GND10" pad="1"/>
+<contactref element="J12" pad="2"/>
+<contactref element="PAD47" pad="1"/>
+<contactref element="GND11" pad="1"/>
+<contactref element="J13" pad="2"/>
+<contactref element="PAD51" pad="1"/>
+<contactref element="GND12" pad="1"/>
+<contactref element="J14" pad="2"/>
+<contactref element="PAD55" pad="1"/>
+<contactref element="GND13" pad="1"/>
+<contactref element="J15" pad="2"/>
+<contactref element="PAD59" pad="1"/>
+<contactref element="GND14" pad="1"/>
+<contactref element="J16" pad="2"/>
+<contactref element="PAD63" pad="1"/>
+<contactref element="GND15" pad="1"/>
+<contactref element="J17" pad="2"/>
+<contactref element="PAD67" pad="1"/>
+<contactref element="GND16" pad="1"/>
+<contactref element="J18" pad="2"/>
+<contactref element="PAD71" pad="1"/>
+<contactref element="GND17" pad="1"/>
+<contactref element="J19" pad="2"/>
+<contactref element="PAD75" pad="1"/>
+<contactref element="GND18" pad="1"/>
+<contactref element="J20" pad="2"/>
+<contactref element="PAD79" pad="1"/>
+<contactref element="GND19" pad="1"/>
+<contactref element="J21" pad="2"/>
+<contactref element="PAD83" pad="1"/>
+<contactref element="GND20" pad="1"/>
+<contactref element="J22" pad="2"/>
+<contactref element="PAD87" pad="1"/>
+<contactref element="GND21" pad="1"/>
+<contactref element="J23" pad="2"/>
+<contactref element="PAD91" pad="1"/>
+<contactref element="GND22" pad="1"/>
+<contactref element="J24" pad="2"/>
+<contactref element="PAD95" pad="1"/>
+<contactref element="GND23" pad="1"/>
+<contactref element="J25" pad="2"/>
+<contactref element="PAD99" pad="1"/>
+<contactref element="GND24" pad="1"/>
+</signal>
+<signal name="VCC">
+<contactref element="VCC" pad="1"/>
+<contactref element="PAD1" pad="1"/>
+<contactref element="PAD5" pad="1"/>
+<contactref element="VCC1" pad="1"/>
+<contactref element="PAD9" pad="1"/>
+<contactref element="VCC2" pad="1"/>
+<contactref element="PAD13" pad="1"/>
+<contactref element="VCC3" pad="1"/>
+<contactref element="PAD17" pad="1"/>
+<contactref element="VCC4" pad="1"/>
+<contactref element="PAD21" pad="1"/>
+<contactref element="VCC5" pad="1"/>
+<contactref element="PAD25" pad="1"/>
+<contactref element="VCC6" pad="1"/>
+<contactref element="PAD29" pad="1"/>
+<contactref element="VCC7" pad="1"/>
+<contactref element="PAD33" pad="1"/>
+<contactref element="VCC8" pad="1"/>
+<contactref element="PAD37" pad="1"/>
+<contactref element="VCC9" pad="1"/>
+<contactref element="PAD41" pad="1"/>
+<contactref element="VCC10" pad="1"/>
+<contactref element="PAD45" pad="1"/>
+<contactref element="VCC11" pad="1"/>
+<contactref element="PAD49" pad="1"/>
+<contactref element="VCC12" pad="1"/>
+<contactref element="PAD53" pad="1"/>
+<contactref element="VCC13" pad="1"/>
+<contactref element="PAD57" pad="1"/>
+<contactref element="VCC14" pad="1"/>
+<contactref element="PAD61" pad="1"/>
+<contactref element="VCC15" pad="1"/>
+<contactref element="PAD65" pad="1"/>
+<contactref element="VCC16" pad="1"/>
+<contactref element="PAD69" pad="1"/>
+<contactref element="VCC17" pad="1"/>
+<contactref element="PAD73" pad="1"/>
+<contactref element="VCC18" pad="1"/>
+<contactref element="PAD77" pad="1"/>
+<contactref element="VCC19" pad="1"/>
+<contactref element="PAD81" pad="1"/>
+<contactref element="VCC20" pad="1"/>
+<contactref element="PAD85" pad="1"/>
+<contactref element="VCC21" pad="1"/>
+<contactref element="PAD89" pad="1"/>
+<contactref element="VCC22" pad="1"/>
+<contactref element="PAD93" pad="1"/>
+<contactref element="VCC23" pad="1"/>
+<contactref element="PAD97" pad="1"/>
+<contactref element="VCC24" pad="1"/>
+<wire x1="240.0554" y1="245.2624" x2="245.6434" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="191.6684" y1="242.9002" x2="240.0554" y2="245.2624" width="0" layer="19" extent="1-1"/>
+<wire x1="186.1058" y1="245.618" x2="191.6684" y2="242.9002" width="0" layer="19" extent="1-1"/>
+<wire x1="237.49" y1="204.47" x2="245.6434" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="243.84" y1="194.31" x2="237.49" y2="204.47" width="0" layer="19" extent="1-1"/>
+<wire x1="242.57" y1="157.48" x2="243.84" y2="194.31" width="0" layer="19" extent="1-1"/>
+<wire x1="242.57" y1="152.4" x2="242.57" y2="157.48" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="205.74" x2="186.1058" y2="245.618" width="0" layer="19" extent="1-1"/>
+<wire x1="179.07" y1="195.58" x2="172.72" y2="205.74" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="160.02" x2="179.07" y2="195.58" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="154.94" x2="180.34" y2="160.02" width="0" layer="19" extent="1-1"/>
+<wire x1="137.3378" y1="242.5446" x2="172.72" y2="205.74" width="0" layer="19" extent="1-1"/>
+<wire x1="131.7752" y1="245.2624" x2="137.3378" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="115.57" y1="209.55" x2="131.7752" y2="245.2624" width="0" layer="19" extent="1-1"/>
+<wire x1="121.92" y1="199.39" x2="115.57" y2="209.55" width="0" layer="19" extent="1-1"/>
+<wire x1="123.19" y1="160.02" x2="121.92" y2="199.39" width="0" layer="19" extent="1-1"/>
+<wire x1="123.19" y1="154.94" x2="123.19" y2="160.02" width="0" layer="19" extent="1-1"/>
+<wire x1="83.3628" y1="242.5446" x2="115.57" y2="209.55" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8002" y1="245.2624" x2="83.3628" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="59.69" y1="209.55" x2="77.8002" y2="245.2624" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="199.39" x2="59.69" y2="209.55" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="158.75" x2="66.04" y2="199.39" width="0" layer="19" extent="1-1"/>
+<wire x1="59.69" y1="153.67" x2="67.31" y2="158.75" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="156.21" x2="59.69" y2="153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="151.13" x2="20.32" y2="156.21" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="198.12" x2="59.69" y2="209.55" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="208.28" x2="20.32" y2="198.12" width="0" layer="19" extent="1-1"/>
+<wire x1="29.3878" y1="242.5446" x2="13.97" y2="208.28" width="0" layer="19" extent="1-1"/>
+<wire x1="23.8252" y1="245.2624" x2="29.3878" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="124.46" y1="104.14" x2="123.19" y2="154.94" width="0" layer="19" extent="1-1"/>
+<wire x1="124.46" y1="99.06" x2="124.46" y2="104.14" width="0" layer="19" extent="1-1"/>
+<wire x1="127" y1="52.07" x2="124.46" y2="99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="127" y1="46.99" x2="127" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="100.33" x2="20.32" y2="151.13" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="95.25" x2="19.05" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="49.53" x2="19.05" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="44.45" x2="17.78" y2="49.53" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="101.6" x2="19.05" y2="100.33" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="96.52" x2="69.85" y2="101.6" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="52.07" x2="69.85" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="46.99" x2="69.85" y2="52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="102.87" x2="180.34" y2="154.94" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="97.79" x2="180.34" y2="102.87" width="0" layer="19" extent="1-1"/>
+<wire x1="182.88" y1="53.34" x2="180.34" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="182.88" y1="48.26" x2="182.88" y2="53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="233.68" y1="45.72" x2="182.88" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="233.68" y1="40.64" x2="233.68" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="241.3" y1="95.25" x2="233.68" y2="45.72" width="0" layer="19" extent="1-1"/>
+<wire x1="241.3" y1="100.33" x2="241.3" y2="95.25" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SCL">
+<contactref element="PAD2" pad="1"/>
+<contactref element="SCL" pad="1"/>
+<contactref element="PAD6" pad="1"/>
+<contactref element="SCL1" pad="1"/>
+<contactref element="PAD10" pad="1"/>
+<contactref element="SCL2" pad="1"/>
+<contactref element="PAD14" pad="1"/>
+<contactref element="SCL3" pad="1"/>
+<contactref element="PAD18" pad="1"/>
+<contactref element="SCL4" pad="1"/>
+<contactref element="PAD22" pad="1"/>
+<contactref element="SCL5" pad="1"/>
+<contactref element="PAD26" pad="1"/>
+<contactref element="SCL6" pad="1"/>
+<contactref element="PAD30" pad="1"/>
+<contactref element="SCL7" pad="1"/>
+<contactref element="PAD34" pad="1"/>
+<contactref element="SCL8" pad="1"/>
+<contactref element="PAD38" pad="1"/>
+<contactref element="SCL9" pad="1"/>
+<contactref element="PAD42" pad="1"/>
+<contactref element="SCL10" pad="1"/>
+<contactref element="PAD46" pad="1"/>
+<contactref element="SCL11" pad="1"/>
+<contactref element="PAD50" pad="1"/>
+<contactref element="SCL12" pad="1"/>
+<contactref element="PAD54" pad="1"/>
+<contactref element="SCL13" pad="1"/>
+<contactref element="PAD58" pad="1"/>
+<contactref element="SCL14" pad="1"/>
+<contactref element="PAD62" pad="1"/>
+<contactref element="SCL15" pad="1"/>
+<contactref element="PAD66" pad="1"/>
+<contactref element="SCL16" pad="1"/>
+<contactref element="PAD70" pad="1"/>
+<contactref element="SCL17" pad="1"/>
+<contactref element="PAD74" pad="1"/>
+<contactref element="SCL18" pad="1"/>
+<contactref element="PAD78" pad="1"/>
+<contactref element="SCL19" pad="1"/>
+<contactref element="PAD82" pad="1"/>
+<contactref element="SCL20" pad="1"/>
+<contactref element="PAD86" pad="1"/>
+<contactref element="SCL21" pad="1"/>
+<contactref element="PAD90" pad="1"/>
+<contactref element="SCL22" pad="1"/>
+<contactref element="PAD94" pad="1"/>
+<contactref element="SCL23" pad="1"/>
+<contactref element="PAD98" pad="1"/>
+<contactref element="SCL24" pad="1"/>
+<wire x1="234.7722" y1="239.7252" x2="248.4628" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="194.4878" y1="242.9002" x2="234.7722" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="180.7972" y1="240.0554" x2="194.4878" y2="242.9002" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="205.74" x2="180.7972" y2="240.0554" width="0" layer="19" extent="1-1"/>
+<wire x1="179.07" y1="190.5" x2="180.34" y2="205.74" width="0" layer="19" extent="1-1"/>
+<wire x1="245.11" y1="204.47" x2="234.7722" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="243.84" y1="189.23" x2="245.11" y2="204.47" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="149.86" x2="179.07" y2="190.5" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="144.78" x2="172.72" y2="149.86" width="0" layer="19" extent="1-1"/>
+<wire x1="234.95" y1="147.32" x2="243.84" y2="189.23" width="0" layer="19" extent="1-1"/>
+<wire x1="242.57" y1="142.24" x2="234.95" y2="147.32" width="0" layer="19" extent="1-1"/>
+<wire x1="140.1572" y1="242.5446" x2="180.7972" y2="240.0554" width="0" layer="19" extent="1-1"/>
+<wire x1="126.492" y1="239.7252" x2="140.1572" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="123.19" y1="209.55" x2="126.492" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="121.92" y1="194.31" x2="123.19" y2="209.55" width="0" layer="19" extent="1-1"/>
+<wire x1="86.1822" y1="242.5446" x2="126.492" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="72.517" y1="239.7252" x2="86.1822" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="209.55" x2="72.517" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="66.04" y1="194.31" x2="67.31" y2="209.55" width="0" layer="19" extent="1-1"/>
+<wire x1="32.2072" y1="242.5446" x2="72.517" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="18.542" y1="239.7252" x2="32.2072" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="208.28" x2="18.542" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="193.04" x2="21.59" y2="208.28" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="153.67" x2="66.04" y2="194.31" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="143.51" x2="67.31" y2="153.67" width="0" layer="19" extent="1-1"/>
+<wire x1="115.57" y1="149.86" x2="121.92" y2="194.31" width="0" layer="19" extent="1-1"/>
+<wire x1="123.19" y1="144.78" x2="115.57" y2="149.86" width="0" layer="19" extent="1-1"/>
+<wire x1="20.32" y1="140.97" x2="67.31" y2="143.51" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="146.05" x2="20.32" y2="140.97" width="0" layer="19" extent="1-1"/>
+<wire x1="116.84" y1="93.98" x2="123.19" y2="144.78" width="0" layer="19" extent="1-1"/>
+<wire x1="124.46" y1="88.9" x2="116.84" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="119.38" y1="41.91" x2="124.46" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="127" y1="36.83" x2="119.38" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="86.36" x2="116.84" y2="93.98" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="91.44" x2="69.85" y2="86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="85.09" x2="62.23" y2="91.44" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="90.17" x2="19.05" y2="85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="41.91" x2="69.85" y2="86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="69.85" y1="36.83" x2="62.23" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="34.29" x2="62.23" y2="41.91" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="39.37" x2="17.78" y2="34.29" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="92.71" x2="124.46" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="87.63" x2="172.72" y2="92.71" width="0" layer="19" extent="1-1"/>
+<wire x1="175.26" y1="43.18" x2="180.34" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="182.88" y1="38.1" x2="175.26" y2="43.18" width="0" layer="19" extent="1-1"/>
+<wire x1="233.68" y1="90.17" x2="242.57" y2="142.24" width="0" layer="19" extent="1-1"/>
+<wire x1="241.3" y1="85.09" x2="233.68" y2="90.17" width="0" layer="19" extent="1-1"/>
+<wire x1="241.3" y1="40.64" x2="241.3" y2="85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="241.3" y1="35.56" x2="241.3" y2="40.64" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="SDA">
+<contactref element="PAD4" pad="1"/>
+<contactref element="SDA" pad="1"/>
+<contactref element="PAD8" pad="1"/>
+<contactref element="SDA1" pad="1"/>
+<contactref element="PAD12" pad="1"/>
+<contactref element="SDA2" pad="1"/>
+<contactref element="PAD16" pad="1"/>
+<contactref element="SDA3" pad="1"/>
+<contactref element="PAD20" pad="1"/>
+<contactref element="SDA4" pad="1"/>
+<contactref element="PAD24" pad="1"/>
+<contactref element="SDA5" pad="1"/>
+<contactref element="PAD28" pad="1"/>
+<contactref element="SDA6" pad="1"/>
+<contactref element="PAD32" pad="1"/>
+<contactref element="SDA7" pad="1"/>
+<contactref element="PAD36" pad="1"/>
+<contactref element="SDA8" pad="1"/>
+<contactref element="PAD40" pad="1"/>
+<contactref element="SDA9" pad="1"/>
+<contactref element="PAD44" pad="1"/>
+<contactref element="SDA10" pad="1"/>
+<contactref element="PAD48" pad="1"/>
+<contactref element="SDA11" pad="1"/>
+<contactref element="PAD52" pad="1"/>
+<contactref element="SDA12" pad="1"/>
+<contactref element="PAD56" pad="1"/>
+<contactref element="SDA13" pad="1"/>
+<contactref element="PAD60" pad="1"/>
+<contactref element="SDA14" pad="1"/>
+<contactref element="PAD64" pad="1"/>
+<contactref element="SDA15" pad="1"/>
+<contactref element="PAD68" pad="1"/>
+<contactref element="SDA16" pad="1"/>
+<contactref element="PAD72" pad="1"/>
+<contactref element="SDA17" pad="1"/>
+<contactref element="PAD76" pad="1"/>
+<contactref element="SDA18" pad="1"/>
+<contactref element="PAD80" pad="1"/>
+<contactref element="SDA19" pad="1"/>
+<contactref element="PAD84" pad="1"/>
+<contactref element="SDA20" pad="1"/>
+<contactref element="PAD88" pad="1"/>
+<contactref element="SDA21" pad="1"/>
+<contactref element="PAD92" pad="1"/>
+<contactref element="SDA22" pad="1"/>
+<contactref element="PAD96" pad="1"/>
+<contactref element="SDA23" pad="1"/>
+<contactref element="PAD100" pad="1"/>
+<contactref element="SDA24" pad="1"/>
+<wire x1="67.31" y1="204.47" x2="59.69" y2="194.31" width="0" layer="19" extent="1-1"/>
+<wire x1="72.517" y1="242.5446" x2="67.31" y2="204.47" width="0" layer="19" extent="1-1"/>
+<wire x1="86.1822" y1="239.7252" x2="72.517" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="21.59" y1="203.2" x2="59.69" y2="194.31" width="0" layer="19" extent="1-1"/>
+<wire x1="13.97" y1="193.04" x2="21.59" y2="203.2" width="0" layer="19" extent="1-1"/>
+<wire x1="32.2072" y1="239.7252" x2="21.59" y2="203.2" width="0" layer="19" extent="1-1"/>
+<wire x1="18.542" y1="242.5446" x2="32.2072" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="126.492" y1="242.5446" x2="86.1822" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="140.1572" y1="239.7252" x2="126.492" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="123.19" y1="204.47" x2="126.492" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="115.57" y1="194.31" x2="123.19" y2="204.47" width="0" layer="19" extent="1-1"/>
+<wire x1="115.57" y1="154.94" x2="115.57" y2="194.31" width="0" layer="19" extent="1-1"/>
+<wire x1="115.57" y1="144.78" x2="115.57" y2="154.94" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="151.13" x2="13.97" y2="193.04" width="0" layer="19" extent="1-1"/>
+<wire x1="12.7" y1="140.97" x2="12.7" y2="151.13" width="0" layer="19" extent="1-1"/>
+<wire x1="180.7972" y1="242.8748" x2="140.1572" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="194.4878" y1="240.0554" x2="180.7972" y2="242.8748" width="0" layer="19" extent="1-1"/>
+<wire x1="234.7722" y1="242.5446" x2="194.4878" y2="240.0554" width="0" layer="19" extent="1-1"/>
+<wire x1="248.4628" y1="239.7252" x2="234.7722" y2="242.5446" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="200.66" x2="180.7972" y2="242.8748" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="190.5" x2="180.34" y2="200.66" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="154.94" x2="172.72" y2="190.5" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="144.78" x2="172.72" y2="154.94" width="0" layer="19" extent="1-1"/>
+<wire x1="245.11" y1="199.39" x2="248.4628" y2="239.7252" width="0" layer="19" extent="1-1"/>
+<wire x1="237.49" y1="189.23" x2="245.11" y2="199.39" width="0" layer="19" extent="1-1"/>
+<wire x1="234.95" y1="152.4" x2="237.49" y2="189.23" width="0" layer="19" extent="1-1"/>
+<wire x1="234.95" y1="142.24" x2="234.95" y2="152.4" width="0" layer="19" extent="1-1"/>
+<wire x1="116.84" y1="99.06" x2="115.57" y2="144.78" width="0" layer="19" extent="1-1"/>
+<wire x1="116.84" y1="88.9" x2="116.84" y2="99.06" width="0" layer="19" extent="1-1"/>
+<wire x1="119.38" y1="46.99" x2="116.84" y2="88.9" width="0" layer="19" extent="1-1"/>
+<wire x1="119.38" y1="36.83" x2="119.38" y2="46.99" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="95.25" x2="12.7" y2="140.97" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="85.09" x2="11.43" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="44.45" x2="11.43" y2="85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="10.16" y1="34.29" x2="10.16" y2="44.45" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="148.59" x2="59.69" y2="194.31" width="0" layer="19" extent="1-1"/>
+<wire x1="59.69" y1="143.51" x2="67.31" y2="148.59" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="97.79" x2="172.72" y2="144.78" width="0" layer="19" extent="1-1"/>
+<wire x1="172.72" y1="87.63" x2="172.72" y2="97.79" width="0" layer="19" extent="1-1"/>
+<wire x1="175.26" y1="48.26" x2="172.72" y2="87.63" width="0" layer="19" extent="1-1"/>
+<wire x1="175.26" y1="38.1" x2="175.26" y2="48.26" width="0" layer="19" extent="1-1"/>
+<wire x1="233.68" y1="95.25" x2="234.95" y2="142.24" width="0" layer="19" extent="1-1"/>
+<wire x1="233.68" y1="85.09" x2="233.68" y2="95.25" width="0" layer="19" extent="1-1"/>
+<wire x1="233.68" y1="50.8" x2="233.68" y2="85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="241.3" y1="45.72" x2="233.68" y2="50.8" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="96.52" x2="59.69" y2="143.51" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="86.36" x2="62.23" y2="96.52" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="46.99" x2="62.23" y2="86.36" width="0" layer="19" extent="1-1"/>
+<wire x1="62.23" y1="36.83" x2="62.23" y2="46.99" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="5V">
+<contactref element="J1" pad="3"/>
+<contactref element="J2" pad="3"/>
+<contactref element="J3" pad="3"/>
+<contactref element="J4" pad="3"/>
+<contactref element="J5" pad="3"/>
+<contactref element="J6" pad="3"/>
+<contactref element="J7" pad="3"/>
+<contactref element="J8" pad="3"/>
+<contactref element="J9" pad="3"/>
+<contactref element="J10" pad="3"/>
+<contactref element="J11" pad="3"/>
+<contactref element="J12" pad="3"/>
+<contactref element="J13" pad="3"/>
+<contactref element="J14" pad="3"/>
+<contactref element="J15" pad="3"/>
+<contactref element="J16" pad="3"/>
+<contactref element="J17" pad="3"/>
+<contactref element="J18" pad="3"/>
+<contactref element="J19" pad="3"/>
+<contactref element="J20" pad="3"/>
+<contactref element="J21" pad="3"/>
+<contactref element="J22" pad="3"/>
+<contactref element="J23" pad="3"/>
+<contactref element="J24" pad="3"/>
+<contactref element="J25" pad="3"/>
+<wire x1="186.182" y1="238.0996" x2="240.1316" y2="237.744" width="0" layer="19" extent="1-1"/>
+<wire x1="242.57" y1="185.42" x2="240.1316" y2="237.744" width="0" layer="19" extent="1-1"/>
+<wire x1="240.03" y1="138.43" x2="242.57" y2="185.42" width="0" layer="19" extent="1-1"/>
+<wire x1="177.8" y1="186.69" x2="186.182" y2="238.0996" width="0" layer="19" extent="1-1"/>
+<wire x1="177.8" y1="140.97" x2="177.8" y2="186.69" width="0" layer="19" extent="1-1"/>
+<wire x1="238.76" y1="81.28" x2="240.03" y2="138.43" width="0" layer="19" extent="1-1"/>
+<wire x1="238.76" y1="31.75" x2="238.76" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="177.8" y1="83.82" x2="177.8" y2="140.97" width="0" layer="19" extent="1-1"/>
+<wire x1="180.34" y1="34.29" x2="177.8" y2="83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="121.92" y1="85.09" x2="177.8" y2="83.82" width="0" layer="19" extent="1-1"/>
+<wire x1="124.46" y1="33.02" x2="121.92" y2="85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="82.55" x2="121.92" y2="85.09" width="0" layer="19" extent="1-1"/>
+<wire x1="67.31" y1="33.02" x2="67.31" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="16.51" y1="81.28" x2="67.31" y2="82.55" width="0" layer="19" extent="1-1"/>
+<wire x1="15.24" y1="30.48" x2="16.51" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="17.78" y1="137.16" x2="16.51" y2="81.28" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="139.7" x2="17.78" y2="137.16" width="0" layer="19" extent="1-1"/>
+<wire x1="64.77" y1="190.5" x2="64.77" y2="139.7" width="0" layer="19" extent="1-1"/>
+<wire x1="19.05" y1="189.23" x2="64.77" y2="190.5" width="0" layer="19" extent="1-1"/>
+<wire x1="23.9014" y1="237.744" x2="19.05" y2="189.23" width="0" layer="19" extent="1-1"/>
+<wire x1="77.8764" y1="237.744" x2="64.77" y2="190.5" width="0" layer="19" extent="1-1"/>
+<wire x1="131.8514" y1="237.744" x2="77.8764" y2="237.744" width="0" layer="19" extent="1-1"/>
+<wire x1="120.65" y1="190.5" x2="131.8514" y2="237.744" width="0" layer="19" extent="1-1"/>
+<wire x1="120.65" y1="140.97" x2="120.65" y2="190.5" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="GPIO1">
+<contactref element="J1" pad="1"/>
+</signal>
+<signal name="GPIO2">
+<contactref element="J2" pad="1"/>
+</signal>
+<signal name="GPIO3">
+<contactref element="J3" pad="1"/>
+</signal>
+<signal name="GPIO4">
+<contactref element="J4" pad="1"/>
+</signal>
+<signal name="GPIO5">
+<contactref element="J5" pad="1"/>
+</signal>
+<signal name="GPIO6">
+<contactref element="J6" pad="1"/>
+</signal>
+<signal name="GPIO7">
+<contactref element="J7" pad="1"/>
+</signal>
+<signal name="GPIO8">
+<contactref element="J8" pad="1"/>
+</signal>
+<signal name="GPIO9">
+<contactref element="J9" pad="1"/>
+</signal>
+<signal name="GPIO10">
+<contactref element="J10" pad="1"/>
+</signal>
+<signal name="GPIO11">
+<contactref element="J11" pad="1"/>
+</signal>
+<signal name="GPIO12">
+<contactref element="J12" pad="1"/>
+</signal>
+<signal name="GPIO13">
+<contactref element="J13" pad="1"/>
+</signal>
+<signal name="GPIO14">
+<contactref element="J14" pad="1"/>
+</signal>
+<signal name="GPIO15">
+<contactref element="J15" pad="1"/>
+</signal>
+<signal name="GPIO16">
+<contactref element="J16" pad="1"/>
+</signal>
+<signal name="GPIO17">
+<contactref element="J17" pad="1"/>
+</signal>
+<signal name="GPIO18">
+<contactref element="J18" pad="1"/>
+</signal>
+<signal name="GPIO19">
+<contactref element="J19" pad="1"/>
+</signal>
+<signal name="GPIO20">
+<contactref element="J20" pad="1"/>
+</signal>
+<signal name="GPIO21">
+<contactref element="J21" pad="1"/>
+</signal>
+<signal name="GPIO22">
+<contactref element="J22" pad="1"/>
+</signal>
+<signal name="GPIO23">
+<contactref element="J23" pad="1"/>
+</signal>
+<signal name="GPIO24">
+<contactref element="J24" pad="1"/>
+</signal>
+<signal name="GPIO25">
+<contactref element="J25" pad="1"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>

@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-10-16T17:02:29Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.1"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "perfect_cubev2_ITLL version"
+        },
+        "Owner": "Caleb Wright <cawr2975@colorado.edu>",
+        "Size": {
+            "X": 44.45,
+            "Y": 44.45
+        }
+    }
+}
